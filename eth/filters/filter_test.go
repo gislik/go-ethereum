@@ -23,15 +23,15 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gislik/go-ethereum/common"
+	"github.com/gislik/go-ethereum/consensus/ethash"
+	"github.com/gislik/go-ethereum/core"
+	"github.com/gislik/go-ethereum/core/rawdb"
+	"github.com/gislik/go-ethereum/core/types"
+	"github.com/gislik/go-ethereum/crypto"
+	"github.com/gislik/go-ethereum/ethdb"
+	"github.com/gislik/go-ethereum/event"
+	"github.com/gislik/go-ethereum/params"
 )
 
 func makeReceipt(addr common.Address) *types.Receipt {

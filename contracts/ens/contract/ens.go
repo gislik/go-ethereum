@@ -6,12 +6,12 @@ package contract
 import (
 	"strings"
 
-	ethereum "github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
+	ethereum "github.com/gislik/go-ethereum"
+	"github.com/gislik/go-ethereum/accounts/abi"
+	"github.com/gislik/go-ethereum/accounts/abi/bind"
+	"github.com/gislik/go-ethereum/common"
+	"github.com/gislik/go-ethereum/core/types"
+	"github.com/gislik/go-ethereum/event"
 )
 
 // ENSABI is the input ABI used to generate the binding from.

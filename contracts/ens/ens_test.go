@@ -20,11 +20,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum/contracts/ens/contract"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/gislik/go-ethereum/accounts/abi/bind"
+	"github.com/gislik/go-ethereum/accounts/abi/bind/backends"
+	"github.com/gislik/go-ethereum/contracts/ens/contract"
+	"github.com/gislik/go-ethereum/core"
+	"github.com/gislik/go-ethereum/crypto"
 )
 
 var (

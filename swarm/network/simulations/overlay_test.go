@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/swarm/log"
+	"github.com/gislik/go-ethereum/p2p/discover"
+	"github.com/gislik/go-ethereum/p2p/simulations"
+	"github.com/gislik/go-ethereum/swarm/log"
 )
 
 var (

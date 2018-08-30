@@ -9,17 +9,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/swarm/network"
-	"github.com/ethereum/go-ethereum/swarm/pss"
-	"github.com/ethereum/go-ethereum/swarm/state"
-	whisper "github.com/ethereum/go-ethereum/whisper/whisperv5"
+	"github.com/gislik/go-ethereum/common/hexutil"
+	"github.com/gislik/go-ethereum/crypto"
+	"github.com/gislik/go-ethereum/log"
+	"github.com/gislik/go-ethereum/node"
+	"github.com/gislik/go-ethereum/p2p/discover"
+	"github.com/gislik/go-ethereum/p2p/simulations"
+	"github.com/gislik/go-ethereum/p2p/simulations/adapters"
+	"github.com/gislik/go-ethereum/swarm/network"
+	"github.com/gislik/go-ethereum/swarm/pss"
+	"github.com/gislik/go-ethereum/swarm/state"
+	whisper "github.com/gislik/go-ethereum/whisper/whisperv5"
 )
 
 var (

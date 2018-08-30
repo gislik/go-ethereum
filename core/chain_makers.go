@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gislik/go-ethereum/common"
+	"github.com/gislik/go-ethereum/consensus"
+	"github.com/gislik/go-ethereum/consensus/misc"
+	"github.com/gislik/go-ethereum/core/state"
+	"github.com/gislik/go-ethereum/core/types"
+	"github.com/gislik/go-ethereum/core/vm"
+	"github.com/gislik/go-ethereum/ethdb"
+	"github.com/gislik/go-ethereum/params"
 )
 
 // BlockGen creates blocks for testing.

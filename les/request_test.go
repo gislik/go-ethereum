@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/light"
+	"github.com/gislik/go-ethereum/common"
+	"github.com/gislik/go-ethereum/core/rawdb"
+	"github.com/gislik/go-ethereum/crypto"
+	"github.com/gislik/go-ethereum/ethdb"
+	"github.com/gislik/go-ethereum/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

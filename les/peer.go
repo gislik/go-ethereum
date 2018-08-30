@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/les/flowcontrol"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/gislik/go-ethereum/common"
+	"github.com/gislik/go-ethereum/core/types"
+	"github.com/gislik/go-ethereum/eth"
+	"github.com/gislik/go-ethereum/les/flowcontrol"
+	"github.com/gislik/go-ethereum/light"
+	"github.com/gislik/go-ethereum/p2p"
+	"github.com/gislik/go-ethereum/rlp"
 )
 
 var (

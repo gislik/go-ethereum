@@ -27,10 +27,10 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto/sha3"
-	"github.com/ethereum/go-ethereum/swarm/bmt"
-	"github.com/ethereum/go-ethereum/swarm/chunk"
+	"github.com/gislik/go-ethereum/common"
+	"github.com/gislik/go-ethereum/crypto/sha3"
+	"github.com/gislik/go-ethereum/swarm/bmt"
+	"github.com/gislik/go-ethereum/swarm/chunk"
 )
 
 const MaxPO = 16

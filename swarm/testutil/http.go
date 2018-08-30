@@ -23,9 +23,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/storage/mru"
+	"github.com/gislik/go-ethereum/swarm/api"
+	"github.com/gislik/go-ethereum/swarm/storage"
+	"github.com/gislik/go-ethereum/swarm/storage/mru"
 )
 
 type TestServer interface {

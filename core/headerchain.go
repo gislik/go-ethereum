@@ -26,13 +26,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/gislik/go-ethereum/common"
+	"github.com/gislik/go-ethereum/consensus"
+	"github.com/gislik/go-ethereum/core/rawdb"
+	"github.com/gislik/go-ethereum/core/types"
+	"github.com/gislik/go-ethereum/ethdb"
+	"github.com/gislik/go-ethereum/log"
+	"github.com/gislik/go-ethereum/params"
 	"github.com/hashicorp/golang-lru"
 )
 
